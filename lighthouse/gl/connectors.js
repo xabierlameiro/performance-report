@@ -166,6 +166,34 @@ const config = {
           },
           {
             "text": {
+              "name": "devops"
+            },
+            "drawLineThrough": true,
+            "collapsable": true,
+            "stackChildren": true,
+            "connectors": {
+              "stackIndent": 30,
+              "style": {
+                "stroke": "#E3C61A",
+                "arrow-end": "block-wide-long"
+              }
+            },
+            "children": [
+              {
+                "text": {
+                  "name": "integracion-continua-con-github-actions-workflow"
+                },
+                "link": {
+                  "href": "../gl/gl-blog-devops-integracion-continua-con-github-actions-workflow.html"
+                },
+                "drawLineThrough": true,
+                "collapsable": true,
+                "stackChildren": true
+              }
+            ]
+          },
+          {
+            "text": {
               "name": "npm"
             },
             "drawLineThrough": true,
@@ -375,6 +403,17 @@ const config = {
                 },
                 "link": {
                   "href": "../gl/gl-blog-nextjs-tema-escuro.html"
+                },
+                "drawLineThrough": true,
+                "collapsable": true,
+                "stackChildren": true
+              },
+              {
+                "text": {
+                  "name": "integracion-continua-con-github-actions-workflow"
+                },
+                "link": {
+                  "href": "../gl/gl-blog-nextjs-integracion-continua-con-github-actions-workflow.html"
                 },
                 "drawLineThrough": true,
                 "collapsable": true,
