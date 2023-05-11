@@ -18,7 +18,7 @@ const config = {
   },
   "nodeStructure": {
     "text": {
-      "name": "pre.xabierlameiro.com"
+      "name": "xabierlameiro.com"
     },
     "HTMLclass": "domain",
     "drawLineThrough": true,
