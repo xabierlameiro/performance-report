@@ -32,6 +32,21 @@ const config = {
     "children": [
       {
         "text": {
+          "name": "home"
+        },
+        "link": {
+          "href": "../gl/home.html"
+        },
+        "stackChildren": true,
+        "connectors": {
+          "style": {
+            "stroke": "#8080FF",
+            "arrow-end": "block-wide-long"
+          }
+        }
+      },
+      {
+        "text": {
           "name": "blog"
         },
         "stackChildren": true,
@@ -42,268 +57,6 @@ const config = {
           }
         },
         "children": [
-          {
-            "text": {
-              "name": "node"
-            },
-            "drawLineThrough": true,
-            "collapsable": true,
-            "stackChildren": true,
-            "connectors": {
-              "stackIndent": 30,
-              "style": {
-                "stroke": "#E3C61A",
-                "arrow-end": "block-wide-long"
-              }
-            },
-            "children": [
-              {
-                "text": {
-                  "name": "arranxar-direccion-en-uso-erro"
-                },
-                "link": {
-                  "href": "../gl/gl-blog-node-arranxar-direccion-en-uso-erro.html"
-                },
-                "drawLineThrough": true,
-                "collapsable": true,
-                "stackChildren": true
-              },
-              {
-                "text": {
-                  "name": "automatizacion-dos-informes-de-lighthouse"
-                },
-                "link": {
-                  "href": "../gl/gl-blog-node-automatizacion-dos-informes-de-lighthouse.html"
-                },
-                "drawLineThrough": true,
-                "collapsable": true,
-                "stackChildren": true
-              },
-              {
-                "text": {
-                  "name": "documentar-os-meus-compoñentes-de-react"
-                },
-                "link": {
-                  "href": "../gl/gl-blog-node-documentar-os-meus-compoñentes-de-react.html"
-                },
-                "drawLineThrough": true,
-                "collapsable": true,
-                "stackChildren": true
-              },
-              {
-                "text": {
-                  "name": "filtro-para-posicions"
-                },
-                "link": {
-                  "href": "../gl/gl-blog-node-filtro-para-posicions.html"
-                },
-                "drawLineThrough": true,
-                "collapsable": true,
-                "stackChildren": true
-              },
-              {
-                "text": {
-                  "name": "contador-de-estrelas-de-github"
-                },
-                "link": {
-                  "href": "../gl/gl-blog-node-contador-de-estrelas-de-github.html"
-                },
-                "drawLineThrough": true,
-                "collapsable": true,
-                "stackChildren": true
-              },
-              {
-                "text": {
-                  "name": "facer-un-contador-de-vistas-con-google-analytics"
-                },
-                "link": {
-                  "href": "../gl/gl-blog-node-facer-un-contador-de-vistas-con-google-analytics.html"
-                },
-                "drawLineThrough": true,
-                "collapsable": true,
-                "stackChildren": true
-              },
-              {
-                "text": {
-                  "name": "erro-non-detectado-react-minificado"
-                },
-                "link": {
-                  "href": "../gl/gl-blog-node-erro-non-detectado-react-minificado.html"
-                },
-                "drawLineThrough": true,
-                "collapsable": true,
-                "stackChildren": true
-              }
-            ]
-          },
-          {
-            "text": {
-              "name": "css"
-            },
-            "drawLineThrough": true,
-            "collapsable": true,
-            "stackChildren": true,
-            "connectors": {
-              "stackIndent": 30,
-              "style": {
-                "stroke": "#E3C61A",
-                "arrow-end": "block-wide-long"
-              }
-            },
-            "children": [
-              {
-                "text": {
-                  "name": "tema-escuro"
-                },
-                "link": {
-                  "href": "../gl/gl-blog-css-tema-escuro.html"
-                },
-                "drawLineThrough": true,
-                "collapsable": true,
-                "stackChildren": true
-              }
-            ]
-          },
-          {
-            "text": {
-              "name": "devops"
-            },
-            "drawLineThrough": true,
-            "collapsable": true,
-            "stackChildren": true,
-            "connectors": {
-              "stackIndent": 30,
-              "style": {
-                "stroke": "#E3C61A",
-                "arrow-end": "block-wide-long"
-              }
-            },
-            "children": [
-              {
-                "text": {
-                  "name": "integracion-continua-con-github-actions-workflow"
-                },
-                "link": {
-                  "href": "../gl/gl-blog-devops-integracion-continua-con-github-actions-workflow.html"
-                },
-                "drawLineThrough": true,
-                "collapsable": true,
-                "stackChildren": true
-              }
-            ]
-          },
-          {
-            "text": {
-              "name": "npm"
-            },
-            "drawLineThrough": true,
-            "collapsable": true,
-            "stackChildren": true,
-            "connectors": {
-              "stackIndent": 30,
-              "style": {
-                "stroke": "#E3C61A",
-                "arrow-end": "block-wide-long"
-              }
-            },
-            "children": [
-              {
-                "text": {
-                  "name": "npm-token-solucion-erro"
-                },
-                "link": {
-                  "href": "../gl/gl-blog-npm-npm-token-solucion-erro.html"
-                },
-                "drawLineThrough": true,
-                "collapsable": true,
-                "stackChildren": true
-              }
-            ]
-          },
-          {
-            "text": {
-              "name": "jest"
-            },
-            "drawLineThrough": true,
-            "collapsable": true,
-            "stackChildren": true,
-            "connectors": {
-              "stackIndent": 30,
-              "style": {
-                "stroke": "#E3C61A",
-                "arrow-end": "block-wide-long"
-              }
-            },
-            "children": [
-              {
-                "text": {
-                  "name": "publicar-informe-probas-react"
-                },
-                "link": {
-                  "href": "../gl/gl-blog-jest-publicar-informe-probas-react.html"
-                },
-                "drawLineThrough": true,
-                "collapsable": true,
-                "stackChildren": true
-              }
-            ]
-          },
-          {
-            "text": {
-              "name": "storybook"
-            },
-            "drawLineThrough": true,
-            "collapsable": true,
-            "stackChildren": true,
-            "connectors": {
-              "stackIndent": 30,
-              "style": {
-                "stroke": "#E3C61A",
-                "arrow-end": "block-wide-long"
-              }
-            },
-            "children": [
-              {
-                "text": {
-                  "name": "despregar-storybook-facilmente"
-                },
-                "link": {
-                  "href": "../gl/gl-blog-storybook-despregar-storybook-facilmente.html"
-                },
-                "drawLineThrough": true,
-                "collapsable": true,
-                "stackChildren": true
-              }
-            ]
-          },
-          {
-            "text": {
-              "name": "intl"
-            },
-            "drawLineThrough": true,
-            "collapsable": true,
-            "stackChildren": true,
-            "connectors": {
-              "stackIndent": 30,
-              "style": {
-                "stroke": "#E3C61A",
-                "arrow-end": "block-wide-long"
-              }
-            },
-            "children": [
-              {
-                "text": {
-                  "name": "como-traducir-as-urls"
-                },
-                "link": {
-                  "href": "../gl/gl-blog-intl-como-traducir-as-urls.html"
-                },
-                "drawLineThrough": true,
-                "collapsable": true,
-                "stackChildren": true
-              }
-            ]
-          },
           {
             "text": {
               "name": "error"
@@ -443,6 +196,28 @@ const config = {
               },
               {
                 "text": {
+                  "name": "medir-fuga-de-memoria-en-nextjs"
+                },
+                "link": {
+                  "href": "../gl/gl-blog-nextjs-medir-fuga-de-memoria-en-nextjs.html"
+                },
+                "drawLineThrough": true,
+                "collapsable": true,
+                "stackChildren": true
+              },
+              {
+                "text": {
+                  "name": "fuga-de-memoria-nextjs-en-producion"
+                },
+                "link": {
+                  "href": "../gl/gl-blog-nextjs-fuga-de-memoria-nextjs-en-producion.html"
+                },
+                "drawLineThrough": true,
+                "collapsable": true,
+                "stackChildren": true
+              },
+              {
+                "text": {
                   "name": "como-traducir-as-urls"
                 },
                 "link": {
@@ -519,10 +294,7 @@ const config = {
       },
       {
         "text": {
-          "name": "comments"
-        },
-        "link": {
-          "href": "../gl/gl-comments.html"
+          "name": "legal"
         },
         "stackChildren": true,
         "connectors": {
@@ -530,37 +302,63 @@ const config = {
             "stroke": "#8080FF",
             "arrow-end": "block-wide-long"
           }
-        }
-      },
-      {
-        "text": {
-          "name": "home"
         },
-        "link": {
-          "href": "../gl/home.html"
-        },
-        "stackChildren": true,
-        "connectors": {
-          "style": {
-            "stroke": "#8080FF",
-            "arrow-end": "block-wide-long"
+        "children": [
+          {
+            "text": {
+              "name": "cookies-policy"
+            },
+            "link": {
+              "href": "../gl/gl-legal-cookies-policy.html"
+            },
+            "drawLineThrough": true,
+            "collapsable": true,
+            "stackChildren": true,
+            "connectors": {
+              "stackIndent": 30,
+              "style": {
+                "stroke": "#E3C61A",
+                "arrow-end": "block-wide-long"
+              }
+            }
+          },
+          {
+            "text": {
+              "name": "legal-notice"
+            },
+            "link": {
+              "href": "../gl/gl-legal-legal-notice.html"
+            },
+            "drawLineThrough": true,
+            "collapsable": true,
+            "stackChildren": true,
+            "connectors": {
+              "stackIndent": 30,
+              "style": {
+                "stroke": "#E3C61A",
+                "arrow-end": "block-wide-long"
+              }
+            }
+          },
+          {
+            "text": {
+              "name": "privacy-policy"
+            },
+            "link": {
+              "href": "../gl/gl-legal-privacy-policy.html"
+            },
+            "drawLineThrough": true,
+            "collapsable": true,
+            "stackChildren": true,
+            "connectors": {
+              "stackIndent": 30,
+              "style": {
+                "stroke": "#E3C61A",
+                "arrow-end": "block-wide-long"
+              }
+            }
           }
-        }
-      },
-      {
-        "text": {
-          "name": "settings"
-        },
-        "link": {
-          "href": "../gl/gl-settings.html"
-        },
-        "stackChildren": true,
-        "connectors": {
-          "style": {
-            "stroke": "#8080FF",
-            "arrow-end": "block-wide-long"
-          }
-        }
+        ]
       }
     ]
   }
