@@ -174,10 +174,10 @@ const config = {
               },
               {
                 "text": {
-                  "name": "contador-de-estrelas-de-github"
+                  "name": "contador-de-estrellas-de-github"
                 },
                 "link": {
-                  "href": "../gl/gl-blog-nextjs-contador-de-estrelas-de-github.html"
+                  "href": "../gl/gl-blog-nextjs-contador-de-estrellas-de-github.html"
                 },
                 "drawLineThrough": true,
                 "collapsable": true,
