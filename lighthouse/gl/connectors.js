@@ -47,6 +47,36 @@ const config = {
       },
       {
         "text": {
+          "name": "next-coverage"
+        },
+        "link": {
+          "href": "../gl/gl-next-coverage.html"
+        },
+        "stackChildren": true,
+        "connectors": {
+          "style": {
+            "stroke": "#8080FF",
+            "arrow-end": "block-wide-long"
+          }
+        }
+      },
+      {
+        "text": {
+          "name": "next-leak"
+        },
+        "link": {
+          "href": "../gl/gl-next-leak.html"
+        },
+        "stackChildren": true,
+        "connectors": {
+          "style": {
+            "stroke": "#8080FF",
+            "arrow-end": "block-wide-long"
+          }
+        }
+      },
+      {
+        "text": {
           "name": "blog"
         },
         "stackChildren": true,

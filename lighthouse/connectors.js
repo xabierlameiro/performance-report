@@ -47,6 +47,36 @@ const config = {
       },
       {
         "text": {
+          "name": "next-coverage"
+        },
+        "link": {
+          "href": "../next-coverage.html"
+        },
+        "stackChildren": true,
+        "connectors": {
+          "style": {
+            "stroke": "#8080FF",
+            "arrow-end": "block-wide-long"
+          }
+        }
+      },
+      {
+        "text": {
+          "name": "next-leak"
+        },
+        "link": {
+          "href": "../next-leak.html"
+        },
+        "stackChildren": true,
+        "connectors": {
+          "style": {
+            "stroke": "#8080FF",
+            "arrow-end": "block-wide-long"
+          }
+        }
+      },
+      {
+        "text": {
           "name": "blog"
         },
         "stackChildren": true,
@@ -163,6 +193,17 @@ const config = {
               },
               {
                 "text": {
+                  "name": "ga4-consent-mode-small-site"
+                },
+                "link": {
+                  "href": "../blog-nextjs-ga4-consent-mode-small-site.html"
+                },
+                "drawLineThrough": true,
+                "collapsable": true,
+                "stackChildren": true
+              },
+              {
+                "text": {
                   "name": "continuous-integration-with-github-actions-workflow"
                 },
                 "link": {
@@ -211,6 +252,17 @@ const config = {
                 },
                 "link": {
                   "href": "../blog-nextjs-nextjs-memory-leak-in-production.html"
+                },
+                "drawLineThrough": true,
+                "collapsable": true,
+                "stackChildren": true
+              },
+              {
+                "text": {
+                  "name": "quadratic-mdx-loader-vercel-504"
+                },
+                "link": {
+                  "href": "../blog-nextjs-quadratic-mdx-loader-vercel-504.html"
                 },
                 "drawLineThrough": true,
                 "collapsable": true,
