@@ -270,6 +270,17 @@ const config = {
               },
               {
                 "text": {
+                  "name": "tag-facet-urls-query-parameter"
+                },
+                "link": {
+                  "href": "../blog-nextjs-tag-facet-urls-query-parameter.html"
+                },
+                "drawLineThrough": true,
+                "collapsable": true,
+                "stackChildren": true
+              },
+              {
+                "text": {
                   "name": "translate-slugs-web-pages"
                 },
                 "link": {
